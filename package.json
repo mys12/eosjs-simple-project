@@ -1,0 +1,25 @@
+{
+  "name": "eosjs-simple-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "problem1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mys12/eosjs-simple-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mys12/eosjs-simple-project/issues"
+  },
+  "homepage": "https://github.com/mys12/eosjs-simple-project#readme",
+  "dependencies": {
+    "eosjs": "^20.0.0",
+    "node-fetch": "^2.6.0",
+    "util": "^0.12.1"
+  }
+}
