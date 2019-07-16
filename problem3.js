@@ -19,6 +19,13 @@ const api = new Api({ rpc, signatureProvider, textDecoder: new TextDecoder(), te
 
 
 async function main() {
+    try {
+        const result = await rpc.get_currency_balance('eosio.token', 'baekseok1115', 'EOS');
+        console.log(result);
+    } catch (error) {
+        console.error(error);
+        
+    }
 
 
-}
+ }main();
